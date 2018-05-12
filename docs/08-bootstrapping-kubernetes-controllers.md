@@ -138,6 +138,8 @@ EOF
 ### Configure the Kubernetes Scheduler
 
 
+Create the `kube-scheduler.yaml` configuration file:
+
 ```
 cat > kube-scheduler.yaml <<EOF
 apiVersion: componentconfig/v1alpha1
